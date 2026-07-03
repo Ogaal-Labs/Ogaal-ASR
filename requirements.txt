@@ -1,0 +1,8 @@
+torch
+torchaudio
+transformers
+flask
+numpy
+scipy
+huggingface_hub
+werkzeug
