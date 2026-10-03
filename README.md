@@ -4,6 +4,8 @@
 
 **Ogaal ASR** is a Somali automatic speech recognition system from Ogaal Labs. It is a fine-tuned `openai/whisper-large-v3` checkpoint trained on approximately 72.1 hours of Somali speech for practical transcription workflows.
 
+**Live demo:** [Try Ogaal-ASR](https://ogaal-asr.ogaaldata.com/)
+
 **Model:** [Ogaal-Labs/Ogaal-ASR](https://huggingface.co/Ogaal-Labs/Ogaal-ASR)
 
 ## Key capabilities
@@ -57,7 +59,11 @@ python scripts/infer_somali_asr.py \
   --model-dir model
 ```
 
-Run the local browser demo:
+## Browser demo
+
+Use the hosted demo without installing anything: [ogaal-asr.ogaaldata.com](https://ogaal-asr.ogaaldata.com/).
+
+Or run the browser demo locally:
 
 ```bash
 python scripts/web_demo.py --host 127.0.0.1 --port 7861 --model-dir model
